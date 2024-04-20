@@ -21,6 +21,11 @@ body {
   margin: 80px auto;
   max-width: 300px;
 }
+@media screen and (min-width: 481px) {
+  .container {
+    max-width: 450px;
+  }
+}
 
 .menu {
   border-bottom: 1px solid #294122;
